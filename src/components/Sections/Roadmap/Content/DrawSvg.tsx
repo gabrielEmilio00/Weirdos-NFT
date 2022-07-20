@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import gsap  from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styled, { keyframes } from "styled-components";
-import Vector from "../../../assets/icons/Vector";
+import Vector from "../../../../assets/icons/Vector";
 
 const VectorContainer = styled.div`
     position: absolute;

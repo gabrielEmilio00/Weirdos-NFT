@@ -8,17 +8,17 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from '../../../assets/nfts/bighead-1.svg';
-import img2 from '../../../assets/nfts/bighead-2.svg';
-import img3 from '../../../assets/nfts/bighead-3.svg';
-import img4 from '../../../assets/nfts/bighead-4.svg';
-import img5 from '../../../assets/nfts/bighead-5.svg';
-import img6 from '../../../assets/nfts/bighead-6.svg';
-import img7 from '../../../assets/nfts/bighead-7.svg';
-import img8 from '../../../assets/nfts/bighead-8.svg';
-import img9 from '../../../assets/nfts/bighead-9.svg';
-import img10 from '../../../assets/nfts/bighead-10.svg';
-import Arrow from '../../../assets/imgs/Arrow.svg';
+import img1 from '../../../../assets/nfts/bighead-1.svg';
+import img2 from '../../../../assets/nfts/bighead-2.svg';
+import img3 from '../../../../assets/nfts/bighead-3.svg';
+import img4 from '../../../../assets/nfts/bighead-4.svg';
+import img5 from '../../../../assets/nfts/bighead-5.svg';
+import img6 from '../../../../assets/nfts/bighead-6.svg';
+import img7 from '../../../../assets/nfts/bighead-7.svg';
+import img8 from '../../../../assets/nfts/bighead-8.svg';
+import img9 from '../../../../assets/nfts/bighead-9.svg';
+import img10 from '../../../../assets/nfts/bighead-10.svg';
+import Arrow from '../../../../assets/imgs/Arrow.svg';
 
 const Container = styled.div`
     width: 25vw;

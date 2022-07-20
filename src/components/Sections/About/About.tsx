@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
-import Button from "../../components/Navigation/NavBar/Button";
-import { dark } from "../../styles/Themes";
+import Button from "../../Navigation/NavBar/Button";
+import { dark } from "../../../styles/Themes";
 import Carousel from "./Content/Carousel";
 
 const Section = styled.section`

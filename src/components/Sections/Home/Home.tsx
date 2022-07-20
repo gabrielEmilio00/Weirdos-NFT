@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import CoverVideo from "./Content/CoverVideo";
 import TypeWriterText from "./Content/TypeWriterText";
-import RoundTextBlack from "../../assets/imgs/Rounded-Text-Black.png";
+import RoundTextBlack from "../../../assets/imgs/Rounded-Text-Black.png";
 
 const Section = styled.section`
     min-height: ${props => `calc(100vh - ${props.theme.navHeight})`};

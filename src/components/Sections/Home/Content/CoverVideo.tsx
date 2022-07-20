@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import GIF from '../../../assets/videos/Home Video.mp4';
+import GIF from '../../../../assets/videos/Home Video.mp4';
 
 const VideoContainer = styled.div`
     width: 100%;
