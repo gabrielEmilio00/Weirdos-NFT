@@ -28,14 +28,26 @@ cursor: pointer;
 `
 
 export default function Menu() {
+    
+    const scrollTo = (id: string) => {
+        
+        let element = document.getElementById(id);
+
+        element?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+        })
+    }
+
     return(
         <MenuList>
-            <MenuItem>Home</MenuItem>
-            <MenuItem>About</MenuItem>
-            <MenuItem>Roadmap</MenuItem>
-            <MenuItem>ShowCase</MenuItem>
-            <MenuItem>Team</MenuItem>
-            <MenuItem>Faq</MenuItem>
+            <MenuItem onClick={() => scrollTo('home')}>Home</MenuItem>
+            <MenuItem onClick={() => scrollTo('about')}>About</MenuItem>
+            <MenuItem onClick={() => scrollTo('roadmap')}>Roadmap</MenuItem>
+            <MenuItem onClick={() => scrollTo('showcase')}>ShowCase</MenuItem>
+            <MenuItem onClick={() => scrollTo('team')}>Team</MenuItem>
+            <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
         </MenuList>
 
     )

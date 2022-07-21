@@ -22,7 +22,7 @@ margin: 0 auto;
 export default function Navigation() {
     return ( 
 
-        <Section>
+        <Section id="navigation">
             <NavBar>
                 <Logo />
                 <Menu />

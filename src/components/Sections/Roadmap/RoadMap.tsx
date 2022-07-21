@@ -135,10 +135,10 @@ export default function RoadMap() {
     }
     
     useLayoutEffect(() => {
-        let t1 = gsap.timeline();
+        let tl = gsap.timeline();
         revealRefs.current.forEach((el: any, index: number) => {
 
-            t1.fromTo(
+            tl.fromTo(
                 el.childNodes[0],
                 {
                     y: '0'
@@ -160,7 +160,7 @@ export default function RoadMap() {
         }
     }, []);
     return (
-        <Section>
+        <Section id="roadmap">
             <Title>Roadmap</Title>
             <Container>
                 <SvgContainer>

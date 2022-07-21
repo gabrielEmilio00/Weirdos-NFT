@@ -7,6 +7,7 @@ import Home from './components/Sections/Home/Home';
 import RoadMap from './components/Sections/Roadmap/RoadMap';
 import ShowCase from './components/Sections/ShowCase/ShowCase';
 import Team from './components/Sections/Team/Team';
+import ScrollToTop from './components/Navigation/ScrollToTop';
 import GlobalStyles from './styles/Global';
 import { light, dark } from './styles/Themes';
 
@@ -23,6 +24,7 @@ function App() {
           <Team />
           <Faq />
           <Footer />
+          <ScrollToTop />
         </ThemeProvider>
     </>
   );

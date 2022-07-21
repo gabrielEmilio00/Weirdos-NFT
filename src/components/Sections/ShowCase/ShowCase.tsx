@@ -134,7 +134,7 @@ export default function ShowCase() {
     const Row1Ref = useRef(null);
     const Row2Ref = useRef(null);
     return(
-        <Section>
+        <Section id="showcase">
             <Row dir="none" ref={Row1Ref}>
                 <NftItem img={img1} number={748} price={5.9} passRef={Row1Ref} />
                 <NftItem img={img2} number={961} price={3.8} passRef={Row1Ref} />

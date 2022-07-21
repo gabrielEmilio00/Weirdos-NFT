@@ -23,7 +23,7 @@ const Title = styled.h1`
     text-transform: uppercase;
     color: ${props => props.theme.body};
     margin: 1rem auto;
-    border-bottom: 2px solid ${props => props.theme.body};
+    border-bottom: 2px solid ${props => props.theme.carouselColor};
     width: fit-content;
 `
 const Container = styled.div`
@@ -41,27 +41,26 @@ const Box = styled.div`
 
 export default function Faq() {        
     
-    // const ref = useRef(null);
-    // gsap.registerPlugin(ScrollTrigger);
-    // useLayoutEffect(() => {
-    //     let element = ref.current;
+    const ref = useRef(null);
+    gsap.registerPlugin(ScrollTrigger);
+    useLayoutEffect(() => {
+        let element = ref.current;
+        
+        ScrollTrigger.create({
+            trigger : element,
+            start: 'top top',
+            end: 'bottom top',
+            pin: true,
+            pinSpacing: false,
+            scrub: true,
+        })
 
-    //     ScrollTrigger.create({
-    //         trigger : element,
-    //         start: 'top top',
-    //         end: 'bottom top',
-    //         pin: true,
-    //         pinSpacing: false,
-    //         scrub: true,
-    //     })
-
-    //     return () => {
-
-    //     };
-    // }, [])
+        return () => {
+        };
+    }, [])
 
     return (
-        <Section>
+        <Section ref={ref} id="faq">
             <Title>Faq</Title>
             <Container>
                 <Box>

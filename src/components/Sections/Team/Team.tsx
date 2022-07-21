@@ -21,6 +21,7 @@ interface IMemberComponent {
 
 const Section = styled.section`
     min-height: 100vh;
+    height: 128vh;
     width: 100vw;
     background-color: ${props => props.theme.body};
     position: relative;
@@ -41,7 +42,7 @@ const Container = styled.div`
     margin: 2rem auto;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 ` 
@@ -115,7 +116,7 @@ const MemberComponent = ({img, name=" ", position=" "}: IMemberComponent)  => {
 
 export default function Team() {
     return (
-        <Section>
+        <Section id="team">
             <Confetti />
             <Title>Team</Title>
             <Container>
