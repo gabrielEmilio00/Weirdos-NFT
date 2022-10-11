@@ -6,7 +6,7 @@ import RoundTextBlack from "../../../assets/imgs/Rounded-Text-Black.png";
 
 const Section = styled.section`
     min-height: ${props => `calc(100vh - ${props.theme.navHeight})`};
-    width: 100vw;
+    width: 100vwvw;
     position: relative;
     background-color: ${props => props.theme.body};
 `

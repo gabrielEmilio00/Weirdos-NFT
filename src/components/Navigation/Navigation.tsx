@@ -16,17 +16,32 @@ align-items:center;
 width: 85%;
 height: ${props => props.theme.navHeight};
 margin: 0 auto;
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 64em) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+}
 `
 
 
 export default function Navigation() {
+    
     return ( 
-
         <Section id="navigation">
             <NavBar>
                 <Logo />
                 <Menu />
-                <Button text="Connect Wallet" link="https://google.com"/>
+                <div className={(window.screen.width >= 1024) ? 'desktop' : 'mobile'}>
+                    <Button text="Connect Wallet" link="https://google.com"/>
+                </div>
             </NavBar>
         </Section>
 

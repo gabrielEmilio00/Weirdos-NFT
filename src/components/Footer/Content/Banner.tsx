@@ -10,7 +10,7 @@ import img5 from '../../../assets/nfts/bighead-5.svg';
 import img6 from '../../../assets/nfts/bighead-6.svg';
 
 const Section = styled.section`
-    width: 100vw;
+    width: 100vwvw;
     height: 25rem;
     position: relative;
     border-top: 2px solid ${props => props.theme.text};

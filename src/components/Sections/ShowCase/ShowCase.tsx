@@ -31,6 +31,8 @@ const Section = styled.section`
     align-items: center;
     position: relative;
 
+    overflow: hidden;
+
     &>*:first-child {
         animation-duration: 20s;
     }   

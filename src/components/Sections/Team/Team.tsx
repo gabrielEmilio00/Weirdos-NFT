@@ -25,6 +25,8 @@ const Section = styled.section`
     width: 100vw;
     background-color: ${props => props.theme.body};
     position: relative;
+
+    overflow: hidden;
 `
 const Title = styled.h1`
     font-size: ${props => props.theme.fontxxl};
