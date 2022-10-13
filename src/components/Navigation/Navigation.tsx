@@ -39,7 +39,7 @@ export default function Navigation() {
             <NavBar>
                 <Logo />
                 <Menu />
-                <div className={(window.screen.width >= 1024) ? 'desktop' : 'mobile'}>
+                <div className="desktop">
                     <Button text="Connect Wallet" link="https://google.com"/>
                 </div>
             </NavBar>

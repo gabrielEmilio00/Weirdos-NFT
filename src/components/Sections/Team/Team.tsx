@@ -26,7 +26,11 @@ const Section = styled.section`
     background-color: ${props => props.theme.body};
     position: relative;
 
-    overflow: hidden;
+    @media (max-width: 70em) {
+        height: 100%;
+        overflow: hidden;
+    }
+
 `
 const Title = styled.h1`
     font-size: ${props => props.theme.fontxxl};
@@ -38,6 +42,10 @@ const Title = styled.h1`
     margin: 1rem auto;
     border-bottom: 2px solid ${props => props.theme.text};
     width: fit-content;
+
+    @media (max-width: 40em) {
+        font-size: ${props => props.theme.fontxl};
+    }
 `
 const Container = styled.div`
     width: 75%;
@@ -47,6 +55,14 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
+    @media (max-width: 64em) {
+        width: 80%;
+    }
+    @media (max-width: 48em) {
+        width: 70%;
+        justify-content: center
+    }
 ` 
 const Item = styled.div`
     width: calc(20rem - 4vw);
@@ -66,6 +82,10 @@ const Item = styled.div`
         img{ 
             transform: translateY(-2rem) scale(1.2);
         }
+    }
+
+    @media (max-width: 64em) {
+        width: 50%;
     }
 `
 const ImageContainer = styled.div`

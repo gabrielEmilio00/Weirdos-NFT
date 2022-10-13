@@ -136,8 +136,10 @@ export default function Menu() {
                 <MenuItem onClick={() => scrollTo('showcase')}>ShowCase</MenuItem>
                 <MenuItem onClick={() => scrollTo('team')}>Team</MenuItem>
                 <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
-                <MenuItem className={(window.screen.width >= 1024) ? 'mobile' : 'desktop'}>
-                    <Button text="Connect Wallet" link="https://google.com"/>
+                <MenuItem className="">
+                    <div className="mobile">
+                        <Button text="Connect Wallet" link="https://google.com"/>
+                    </div>
                 </MenuItem>
             </MenuList>
         </>
