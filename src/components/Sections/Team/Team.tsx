@@ -20,14 +20,14 @@ interface IMemberComponent {
 }
 
 const Section = styled.section`
-    min-height: 100vh;
-    height: 128vh;
+    min-height: 128vh;
+    height: auto;
     width: 100vw;
     background-color: ${props => props.theme.body};
     position: relative;
 
     @media (max-width: 70em) {
-        height: 100%;
+        /* height: auto; */
         overflow: hidden;
     }
 
@@ -60,7 +60,7 @@ const Container = styled.div`
         width: 80%;
     }
     @media (max-width: 48em) {
-        width: 70%;
+        width: 90%;
         justify-content: center
     }
 ` 
@@ -84,8 +84,8 @@ const Item = styled.div`
         }
     }
 
-    @media (max-width: 64em) {
-        width: 50%;
+    @media (max-width: 30em) {
+        width: 70vw;
     }
 `
 const ImageContainer = styled.div`
@@ -97,6 +97,7 @@ const ImageContainer = styled.div`
 
     border-radius: 20px;
     cursor: pointer;
+
 
     img {
         width: 100%;

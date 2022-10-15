@@ -33,7 +33,9 @@ list-style: none;
     transition: all 0.3s ease;
 
     flex-direction: column;
-    justify-content:center
+    justify-content:center;
+
+    touch-action: none;
 }
 `
 

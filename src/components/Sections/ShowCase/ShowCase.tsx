@@ -46,7 +46,7 @@ const Section = styled.section`
         animation-duration: 20s;
         
         @media (max-width: 30em) {
-            animation-duration: 15s;
+            animation-duration: 10s;
         }
     }
 `
@@ -105,11 +105,12 @@ const Details = styled.div`
         font-size: ${props => props.theme.fontmd};
         color: ${props => props.theme.body};
         font-weight: 600;
+
+        @media (max-width: 30em) {
+            font-size: ${props => props.theme.fontsm};
+        }
     }
 
-    @media (max-width: 30em) {
-        font-size: ${props => props.theme.fontsm};
-    }
 `
 const Price = styled.div`
     display: flex;

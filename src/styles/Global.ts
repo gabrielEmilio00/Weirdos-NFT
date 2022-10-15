@@ -3,6 +3,11 @@ import '../../node_modules/@fontsource/akaya-telivigala/index.css';
 import '../../node_modules/@fontsource/sora/index.css';
 
 const GlobalStyles = createGlobalStyle`
+
+/* *{
+    outline: 1px solid red !important;
+} */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;

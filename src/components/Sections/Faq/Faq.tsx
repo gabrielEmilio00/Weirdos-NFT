@@ -44,6 +44,12 @@ const Container = styled.div`
     @media (max-width: 48em) {
         width: 90%;
         flex-direction: column;
+
+        &>*:last-child {
+            &>*:first-child {
+                margin: 0;
+            }
+        }
     }
 `
 const Box = styled.div`
@@ -77,6 +83,7 @@ export default function Faq() {
 
     return (
         <Section ref={ref} id="faq">
+        {/* <Section id="faq"> */}
             <Title>Faq</Title>
             <Container>
                 <Box>
