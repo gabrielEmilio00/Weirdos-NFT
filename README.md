@@ -6,7 +6,7 @@
 ## 🧭 Descrição do Projeto
 Weirdos NFT é uma landing page criada com inspiração no mercado de NFT, usando as [Big Heads](https://bigheads.io) como os NFT's que estão a venda.
 
-## 💻 Tecnologias
+## 💻 Tecnologias e ferramentas utilizadas
 - [React](https://pt-br.reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Styled-components](https://styled-components.com)
@@ -14,7 +14,7 @@ Weirdos NFT é uma landing page criada com inspiração no mercado de NFT, usand
 - [Typewriter-Effect](https://www.npmjs.com/package/typewriter-effect)
 - [React-Confetti](https://www.npmjs.com/package/react-confetti)
 
-## 🚀 Como executar
+## 🚀 Executando o Projeto
 
 No terminal clone a pasta do projeto com o seguinte comando:
 
