@@ -14,25 +14,22 @@ Weirdos NFT é uma landing page criada com inspiração no mercado de NFT, usand
 - [Typewriter-Effect](https://www.npmjs.com/package/typewriter-effect)
 - [React-Confetti](https://www.npmjs.com/package/react-confetti)
 
-## ⌨️ Instalação e execução do projeto
+## ⌨️ Instalação do projeto
 
 No terminal clone a pasta do projeto com o seguinte comando:
 
 ```bash
-$ git clone https://github.com/gabrielEmilio00/Weirdos-NFT.git
+1. git clone https://github.com/gabrielEmilio00/Weirdos-NFT.git
+
+2. cd weirdos-nft
 ```
 
-Entre na pasta e instale as dependências:
-
-```bash
-$ cd weirdos-nft
-$ npm install
-```
 
 Execute o projeto com: 
 
 ```bash
-$ npm run start
+
+4. npm run start
 ```
 
 Acesse o endereço http://localhost:3000
