@@ -28,6 +28,7 @@ No terminal clone a pasta do projeto com o seguinte comando:
 Execute o projeto com: 
 
 ```bash
+3. npm install
 
 4. npm run start
 ```
