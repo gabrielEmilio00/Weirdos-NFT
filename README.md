@@ -1,4 +1,4 @@
-<h1 align="center">Weirdos NFT</h1>
+# The Weirdos NFT
 
 ## 📷 Screenshot
 ![apresentacao](https://user-images.githubusercontent.com/72055099/196732125-994712d3-2d59-44bc-9a43-1f7d4442dae0.gif)
