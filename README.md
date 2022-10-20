@@ -33,7 +33,7 @@ Execute o projeto com:
 4. npm run start
 ```
 
-Acesse o endereço http://localhost:3000
+Após rodar acesse o endereço http://localhost:3000
 
 ## 📊 Status do projeto
 ✔️ Concluído
