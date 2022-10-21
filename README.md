@@ -37,4 +37,5 @@ Após rodar acesse o endereço http://localhost:3000
 
 ## 📊 Status do projeto
 ✔️ Concluído
+
 ▶️ Acesse https://weirdos-nft-ten.vercel.app
